@@ -2,7 +2,7 @@ import { createAPIFileRoute } from "@tanstack/react-start/api";
 
 const BASE_URL = "https://pajir-cravings-hub.vercel.app";
 
-export const Route = createAPIFileRoute("/api/sitemap/xml")({
+export const Route = createAPIFileRoute("/sitemap.xml")({
   GET: async () => {
     const routes = ["", "/admin"];
 
