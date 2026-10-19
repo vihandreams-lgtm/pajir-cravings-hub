@@ -82,6 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Pajir Cravings Hub — Kira, Uganda" },
       { name: "description", content: "Fresh juices, smoothies, cookies and hearty meals in Kira, Uganda." },
+      { name: "google-site-verification", content: "F_F1o47_D6ZNId-hXI5RSfe6oOO2YVnvH21BJFr7Di0" },
     ],
     links: [
       {
